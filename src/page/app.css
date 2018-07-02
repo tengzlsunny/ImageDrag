@@ -1,0 +1,94 @@
+
+.zongZiType {
+    width: 1200px;
+    margin: 100px auto 0;
+}
+.zongZiTypeUl {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    flex-flow: row wrap; 
+    list-style: none;
+}
+.zongZiTypeUl li {
+    width: 200px;
+    float: left;
+}
+.operating-plat {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: url(../assets/img/dragon/yuanpan.png) no-repeat;
+    background-size: cover;
+}
+.draggable-img {
+    width: 90px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.draggable-img1 {
+    background-image: url('../assets/img/dragon/food_03.png');
+}
+.draggable-img2 {
+    background-image: url('../assets/img/dragon/food_11.png');
+}
+.draggable-img3 {
+    background-image: url('../assets/img/dragon/food_07.png');
+}
+/* .operating-plat img {
+    width: 60px;
+    cursor: pointer;
+} */
+.operating-btn {
+    width: 130px;
+    height: 36px;
+    line-height: 36px;
+    margin: 10px auto 0 auto;
+    color: #855105;
+    font-size: 24px;
+    background: #e6ba75;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.zongZiMainImg {
+    width: 800px;
+    padding: 8% 0 4%;
+    margin: 0 auto;
+}
+.zongZiMainImg > img {
+    width: 90%;
+    margin-left: 5%;
+}
+.zongZiMainImg .freeNum {
+    display: block;
+    width: 100%;
+    color: #925e12;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 6px;
+}
+.zongZiMainImg .freeNum em {
+    color: #209560;
+    margin-left: 6px;
+    font-style: normal;
+    cursor: pointer;
+}
+.operated-con {
+    position: absolute;
+    left: 45%;
+    width: 20%;
+    /* height: 300px; */
+    margin: 0 auto;
+}
+
+.operated-con img {
+    margin-top: 36%;
+    width: 150px;
+    height: 100px;    
+}
